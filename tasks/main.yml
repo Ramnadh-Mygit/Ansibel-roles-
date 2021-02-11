@@ -1,0 +1,8 @@
+---
+ - name: editing the cnf file
+   lineinfile:
+      path: /etc/my.cnf 
+      regexp: '^innodb_buffer_pool_size'
+      line: 'innodb_buffer_pool_size = 128M'
+   notify:
+    - Restart musqld
