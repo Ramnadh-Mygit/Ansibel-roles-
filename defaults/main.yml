@@ -1,5 +1,0 @@
----
-# defaults file for mysql
-  download_folder: /usr/java/
-  download_url: https://download.oracle.com/otn/java/jdk/8u271-b09/61ae65e088624f5aaa0b1d2d801acb16/jdk-8u271-linux-aarch64.rpm
-  java_name: jdk-8u271-linux-aarch64.rpm
