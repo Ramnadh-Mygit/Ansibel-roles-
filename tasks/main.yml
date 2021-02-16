@@ -21,7 +21,7 @@
    yum:
      name: "{{download_url}}"  
      state: present
-   
+   when: ansible_os_family == "RedHat"
 #Env varibale 
  - name: Adding the path in the bashrc files
    lineinfile: 
